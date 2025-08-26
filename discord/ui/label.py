@@ -82,6 +82,7 @@ class Label(Item[V]):
         'text',
         'description',
         'component',
+        'id',
     )
 
     def __init__(
