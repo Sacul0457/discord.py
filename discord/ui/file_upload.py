@@ -53,7 +53,7 @@ V = TypeVar('V', bound='BaseView', covariant=True)
 
 
 class FileUpload(Item[V]):
-    """Represents a file upload component within a modal.
+    """Represents a file upload component within a modal that can only be used in :class:`Label`.
 
     .. versionadded:: 2.7
 
